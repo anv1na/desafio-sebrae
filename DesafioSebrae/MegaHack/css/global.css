@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'FonteInter';
+    src: url('../fontes/inter-variablefont_slntwght-webfont.woff2') format('woff2'),
+         url('../fontes/inter-variablefont_slntwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+body
+{
+    margin: 0;
+    background-color: #F6F6F6;
+    font-family: 'FonteInter';
+}
+.NavegadorSuperior
+{  
+    position: relative;
+    margin: -16px auto 0px auto;
+    width: 100%;
+    background-color: #492388;
+    height: 60px;
+}
+    .DivLi
+    {
+        margin-left: 100px;
+    }
+        .NavegadorSuperior ul li
+        {
+            list-style: none;
+            display: inline-block;
+            padding-right: 55px;
+            padding-top: 20px;
+            font-size: 14px;
+        }
+        .NavegadorSuperior ul li a
+        {
+            text-decoration:none;
+            list-style: none;
+            display: inline-block;
+            color: white;
+            padding-bottom: 16px;
+            padding-right: 13px;
+            padding-left: 13px;
+        }
+        #Selecionado
+        {
+            margin-top: 3px;
+            border-bottom: 3px solid rgb(219, 97, 10);
+        }
+
+        #Onda
+        {
+            width: 100%;
+            bottom: -50px;
+        }
+        button
+        {
+            margin-top: 30px;
+            border: none;
+            margin-left: 100px;
+            color: white;
+            background-color: #492388;
+            padding: 8px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        button a
+        {
+            text-decoration:  none;
+            color: #f3f3f3;
+        }
+    

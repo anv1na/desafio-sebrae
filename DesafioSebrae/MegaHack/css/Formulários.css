@@ -1,0 +1,85 @@
+body
+{
+    font-family: 'FonteInter';
+    background-image: url(../imagens/FundoForm.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.Forumlário
+{
+    margin: 20px auto 0px auto;
+    width: 700px;
+    height: 800px;
+    background-color: #e5e5e5;
+    padding: 10px 35px 10px 35px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.Forumlário h2
+{
+    text-align: center;
+    color: #494848;
+}
+.Forumlário p
+{
+    color: #727272;
+    margin-top: -18px;
+    text-align: center;
+}
+
+.Perguntas
+{
+    width: 600px;
+    position: relative;
+    margin: 0px auto 0px auto;
+    align-items: center;
+}
+img
+{
+    margin-left: 1270px;
+}
+
+input[type="text"]
+{
+    width: 500px;
+    height: 30px;
+    border: 1px solid #C9C9C9;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 0px 20px;
+}
+label
+{
+    color: #494848;
+}
+
+.Forumlário input[type="button"]
+{
+    margin: 50px 0px 30px 530px;
+    background-image: linear-gradient(10deg, #8a58db, #40197d);
+    color: white;
+    padding: 6px 18px 6px 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar
+{
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-image: linear-gradient(100deg, orange, rgb(166, 73, 20));
+    border-radius: 50px;
+}
+input  {
+    outline: 0;
+}
