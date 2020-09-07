@@ -1,17 +1,31 @@
-﻿<div class="Forumlário">
-    <h2>Insira seus dados</h2>
-    <p>Vamos te conhecer um pouquinho melhor!</p>
+﻿@{
+    ViewData["Title"] = "Sugerir Evento";
+}
+<div class="Forumlário">
+    <h2>Sugerir evento</h2>
+    <p>Preencha os dados para para compartilhar seus incríveis interesses!</p>
     <form action="" method="">
         <br><br><br>
         <div class="Perguntas">
-            <label>Nome completo</label><br>
+
+            <label>Titulo do evento</label><br>
             <input type="text" name="Pergunta1"><br><br><br>
-
-            <label>Email</label><br>
+            <label>Tema</label><br>
             <input type="text" name="Pergunta1"><br><br><br>
+            <label>Data</label><br>
+            <input type="text" name="Pergunta1" id="Data_de_Nascimento"><br><br><br>
+            <label>Horário</label><br>
+            <input type="text" name="Pergunta1" id="Data_de_Nascimento"><br><br><br>
+
+            <label>Formato</label><br>
+            <select name="Formato_Evento">
+                <option value="Formato_Evento"></option>
+                <option value="Presencial">Presencial</option>
+                <option value="Online">Online</option>
+            </select><br><br><br>
 
 
-            <label>Qual o seu estado?</label><br>
+            <label>Em que estado irá ser o evento?</label><br>
             <select name="estado">
                 <option value="estado"></option>
                 <option value="ac">Acre</option>
@@ -43,33 +57,13 @@
                 <option value="to">Tocantins</option>
             </select><br><br><br>
 
-
             <label>Cidade</label><br>
             <input type="text" name="Pergunta1"><br><br><br>
-            <label>Qual o seu perfil?</label><br>
-            <select name="Perfil">
-                <option value="Perfil"></option>
-                <option value="MEI">Microempreendedor Individual (MEI)</option>
-                <option value="ME">Micreempresa (ME)</option>
-                <option value="EPP">Empresa de pequeno porte (EPP)</option>
-                <option value="EMP">Empresa de médio porte</option>
-                <option value="EGP">Empresa de grande porte</option>
-                <option value="PR">Produtora rural</option>
-                <option value="QSE">Quero ser empreendedora</option>
-            </select><br><br><br>
-
-            <label>Qual o ramo de atividade da sua empresa?</label><br>
-            <select name="Ramo_Atividade">
-                <option value="Ramo_Atividade"></option>
-                <option value="Serviço">Serviço</option>
-                <option value="Comércio">Comércio</option>
-                <option value="indústria">Industria</option>
-                <option value="Agronegócio">Agronegócio</option>
-            </select><br><br><br>
-
-            <label>Quais seus interesses?</label><br>
+            <label>CEP</label><br>
+            <input type="text" name="Pergunta1" id="Data_de_Nascimento"><br><br><br>
+            <label>Descrição do evento...</label><br>
             <input type="text" name="Pergunta1" id="Informacoes_Pessoais"><br><br><br>
-        </div>
-        <input type="button" value="Enviar">
+
+            <input type="button" value="Enviar">
     </form>
 </div>
