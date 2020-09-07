@@ -1,0 +1,663 @@
+
+/*Página inicial*/
+.FundoRoxo_MaisInformacoes
+{
+    position: relative;
+    margin: -22px auto 50px auto;
+    align-items: center;
+    background-image: url("../imagens/Fundo_Roxo2.jpg");
+    height: 500px;
+    width: 100%;
+}
+
+    .FundoBranco_MaisInformacoes
+    {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 900px;
+        height: 350px;
+        background-color: white;
+    }
+    .VetorMeninaLâmpada
+    {
+        margin-left: 450px;
+        margin-top: -220px;
+    }
+    .FundoBranco_MaisInformacoes h1
+    {
+        margin-left: 100px;
+        padding-top: 80px;
+        color: #ef6e1d;
+    }
+    .FundoBranco_MaisInformacoes p
+    {
+        margin-top: -10px;
+        margin-left: 100px;
+    }
+
+
+.FundoLaranja_Informações
+{
+    height: 175px;
+    width: 100%;
+    background-color: #FF8F49;
+    position: relative;
+    margin: -50px auto 0px auto;
+    overflow: hidden;
+    padding-top: 30px;
+}
+.FundoLaranja_Informações p
+{
+    text-align: center;
+    color: white;
+}
+
+.FundoCinza_1
+{
+    height: 500px;
+    width: 1250px;
+    position: relative;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+    .Paragrafo
+    {
+        
+        align-items: center;
+        margin-top: -40px;
+        padding: 1em;
+        float: left;
+    }
+        #PrimeiroParagrafo
+        {
+            text-align: justify;
+            margin-right: 50px;
+            margin-left: 100px;
+            width: 400px;
+        }
+        #SegundoParagrafo
+        {
+            text-align: left;
+            margin-left: 150px;
+            width: 420px;
+        }
+        #Paragrafos
+        {
+            width: 500px;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+
+
+.FundoRoxo_Carrossel
+{
+    position: relative;
+    margin: -450px auto 0px auto;
+    margin-top: -150px;
+    height: 370px;
+    background-color: #4E2C90;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.FundoRoxo_Graficos
+{
+    height: 200px;
+    width: 100%;
+    background-color: #573C98;
+    position: relative;
+    margin: 50px auto 0px auto;
+    padding: 0px;
+}
+
+.Graficos
+{
+    border-radius: 10px;
+    width: 180px;
+    background-color: white;
+    padding: 15px;
+    float: left;
+    height: 250px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.0433);
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+#TituloGraficos 
+{
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 22px;
+}
+
+    #PrimeiroGrafico
+    {
+      margin-left: 450px;
+    }
+    .Graficos p
+    {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .Graficos img
+    {
+        margin-left: 40px;
+    }
+
+
+/*Carrossel*/
+    #slider {
+        margin: 0 auto;
+        width: 1000px;
+        max-width: 100%;
+        text-align: center;
+     }
+     #slider input[type=radio] {
+        display: none;
+     }
+     #slider label {
+        cursor:pointer;
+        text-decoration: none;
+     }
+     #slides {
+        margin-left: 90px;
+        margin-right: 90px;
+        border-radius: 30px;
+        padding-top: 10px;
+        background: #fff;
+        position: relative;
+        z-index: 1;
+     }
+     #overflow {
+        width: 100%;
+        overflow: hidden;
+        
+     }
+     #slide1:checked ~ #slides .inner {
+        margin-left: 0;
+     }
+     #slide2:checked ~ #slides .inner {
+        margin-left: -100%;
+     }
+     #slide3:checked ~ #slides .inner {
+        margin-left: -200%;
+     }
+     #slide4:checked ~ #slides .inner {
+        margin-left: -300%;
+     }
+     #slides .inner {
+        transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+        width: 400%;
+        line-height: 0;
+        height: 300px;
+     }
+     #slides .slide {
+        width: 25%;
+        float: left; 
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 90%;
+        color: rgb(0, 0, 0);
+     }
+     #controls {
+        margin: -180px 0 0 0;
+        width: 100%;
+        height: 50px;
+        z-index: 3;
+        position: relative;
+     }
+     #controls label {
+        transition: opacity 0.2s ease-out;
+        display: none;
+        width: 50px;
+        height: 50px;
+        opacity: .4;
+     }
+     #controls label:hover {
+        opacity: 1;
+     }
+     #slide1:checked ~ #controls label:nth-child(2),
+     #slide2:checked ~ #controls label:nth-child(3),
+     #slide3:checked ~ #controls label:nth-child(4),
+     #slide4:checked ~ #controls label:nth-child(1) {
+        background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+        float:right;
+        margin: 0 -50px 0 0;
+        display: block;
+     }
+    #slide1:checked ~ #controls label:nth-last-child(1),
+    #slide2:checked ~ #controls label:nth-last-child(4),
+    #slide3:checked ~ #controls label:nth-last-child(3),
+    #slide4:checked ~ #controls label:nth-last-child(2) {
+        background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+        float:left;
+        margin: 0 0 0 -50px;
+        display: block;
+     }
+     #bullets {
+        margin: 150px 0 0;
+        text-align: center;
+     }
+     #bullets label {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius:100%;
+        background: #ccc;
+        margin: 0 10px;
+     }
+     #slide1:checked ~ #bullets label:nth-child(1),
+     #slide2:checked ~ #bullets label:nth-child(2),
+     #slide3:checked ~ #bullets label:nth-child(3),
+     #slide4:checked ~ #bullets label:nth-child(4) {
+        background: rgb(238, 79, 0);
+     }
+     @media screen and (max-width: 900px) {
+        #slide1:checked ~ #controls label:nth-child(2),
+        #slide2:checked ~ #controls label:nth-child(3),
+        #slide3:checked ~ #controls label:nth-child(4),
+        #slide4:checked ~ #controls label:nth-child(1),
+        #slide1:checked ~ #controls label:nth-last-child(2),
+        #slide2:checked ~ #controls label:nth-last-child(3),
+        #slide3:checked ~ #controls label:nth-last-child(4),
+        #slide4:checked ~ #controls label:nth-last-child(1) {
+           margin: 0;
+        }
+        #slides {
+           max-width: calc(100% - 140px);
+           margin: 0 auto;
+        }
+     }
+
+.Fotinha
+{
+    position: relative;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.slide-content h2
+{
+   margin-left: 50px;
+   padding-bottom: 20px;
+}
+.slide-content p
+{
+   margin-left: 50px;
+   padding-bottom: 2px;
+}
+.LinhaCarrossel
+{
+    position: absolute;
+    margin-top: 120px;
+    width: 100%;
+    height: 70px;
+    background-color: #F6F6F6;
+}
+
+.Paragrafo
+{
+    text-align: center;
+}
+
+
+
+
+/*Página de Eventos*/
+
+/*Carrossel EVENTOS*/
+
+.Fundo
+{
+    margin: 70px;
+    height: 500px;
+    color: #653EA9;
+}
+.Fundo h2
+{
+    text-align: center;
+}
+.Fundo h4
+{
+    margin-left: 140px;
+    color: #4d4d4d;
+}
+.Fundo a
+{
+    text-align: right;
+}
+.carousel
+{
+    margin: 30px auto 0px auto;
+    width: 1500px;
+    text-align: left;
+}
+.Eventos_Carrossel
+{
+    margin-bottom: 20px;
+    border-top: 10px solid #653EA9;
+    padding: 10px;
+    padding-top: 15px;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    margin-left: 105px;
+    margin-right: 105px;
+    box-shadow: 0px 0px 20px #5454544e;
+    border-radius: 5px;
+    color: #4d4d4d;
+}
+.Botao
+{
+    margin-top: 40px;
+    margin-left: 160px;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+}
+#Eventos
+{
+    background-color: #492388;
+}
+.FundoEventos .flickity-button-icon 
+{
+    color: #653EA9;
+}
+.w3-image
+{
+    width: 300px;
+}
+
+/* ------- */
+
+/*PALESTRAS*/
+#BotaoPalestras
+{
+    background-color: #FF879F;
+}
+#Palestras
+{
+    border-top: 10px solid #FF879F;
+}
+.FundoPalestras .flickity-button-icon 
+{
+    color: #FF879F;
+}
+#FundoPalestras
+{
+    color: #FF879F;
+}
+
+
+/* ------- */
+
+/*MENTORIAS*/
+
+#BotaoMentorias
+{
+    background-color: #E46B20;
+}
+#Mentorias
+{
+    border-top: 10px solid #E46B20;
+}
+.FundoMentorias .flickity-button-icon 
+{
+    color: #E46B20;
+}
+#FundoMentorias
+{
+    color: #E46B20;
+}
+
+/*Página de mentorias*/
+.NavegadorSuperior2
+{
+    position: relative;
+    margin: -16px auto 0px auto;
+    width: 100%;
+    background-color: white;
+    height: 60px;
+}
+    .DivLi2
+    {
+        margin-left: 100px;
+    }
+        .NavegadorSuperior2 ul li
+        {
+            list-style: none;
+            display: inline-block;
+            padding-right: 55px;
+            padding-top: 20px;
+            font-size: 14px;
+        }
+        .NavegadorSuperior2 ul li a
+        {
+            text-decoration:none;
+            list-style: none;
+            display: inline-block;
+            color: #E46B20;
+            padding-bottom: 16px;
+            padding-right: 13px;
+            padding-left: 13px;
+        }
+
+/*Mentorias marcadas*/
+.Progresso_Mentorias
+{
+    width: 300px;
+    height: 600px;
+    margin: -3px 0px 0px 100px;
+    padding: 5px 0px 0px 20px;
+    border-right: 1px solid #b2b2b2;
+}
+.Progresso_Mentorias p
+{
+    margin-top: -20px;
+    color: #909090
+}
+.Progresso_Mentorias h2
+{
+    color: #4d4d4d
+}
+
+.Mentorias
+{
+    margin: 30px 0px 0px 12px;
+    padding: 5px 5px 5px 25px;
+}
+.Mentorias p
+{
+    margin: 0px;
+}
+#Mentoria_Selecionada
+{
+    background-color: rgba(102, 70, 155, 0.69);
+}
+#Mentoria_Selecionada #Tema_Mentoria
+{
+    color: #f5f5f5;
+}
+#Mentoria_Selecionada #Nome_Mentora
+{
+    color: #e2e2e2;
+}
+
+/*Anotações da Mentora*/
+.Anotações_Mentora
+{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    left: 480px;
+    top: 170px;
+    overflow: auto;
+    padding-right: 50px;
+}
+.Titulo_Mentoria
+{
+    width: 952px;
+    background: #402C60;;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+    padding: 5px 10px;
+    color: white;
+    margin-top: 50px;
+}
+#data_mentoria
+{
+    margin-top: -35px;
+    text-align: right;
+}
+.Anotações
+{
+    width: 950px;
+    background: white;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+    padding: 5px 10px;
+    border: 1px solid #797979;
+}
+
+::-webkit-scrollbar
+{
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-image: linear-gradient(100deg, orange, rgb(166, 73, 20));
+    border-radius: 50px;
+}
+#Anotacao
+{
+    margin-left: 1300px;
+}
+
+/*Página para se tornar mentora*/
+.Mentoria_Colaborativa
+{
+    margin: 50px 0px 0px 160px;
+    width: 900px;
+}
+.Mentoria_Colaborativa h2
+{
+    color: #402C60;
+    margin-bottom: 10px;
+}
+.Mentoria_Colaborativa p 
+{
+    color: #373737;
+    margin-left: 100px;
+    margin-top: -50px;
+    position: relative;
+}
+.Mentoria_Colaborativa b
+{
+    color: #402C60;
+    font-size: 70px;
+    margin-right: 40px;
+    margin-left: 50px;
+}
+
+
+.Torne-se_Mentora
+{
+    margin: 100px -100px 0px 160px;
+    width: 900px;
+}
+.Torne-se_Mentora h2
+{
+    color:  #F2975F;
+    margin-bottom: 10px;
+}
+.Torne-se_Mentora p 
+{
+    color: #373737;
+    margin-left: 100px;
+    margin-top: -50px;
+    position: relative;
+}
+.Torne-se_Mentora b
+{
+    color:  #F2975F;
+    font-size: 70px;
+    margin-right: 40px;
+    margin-left: 50px;
+}
+#Receber_Mentoria
+{
+    background-color: #F2975F;
+    margin-bottom: 50px;
+}
+#Sujerir_Evento
+{
+    margin-bottom: 100px;
+}
+
+/*Página Gestão de tempo*/
+.Fundo_Gestão_Tempo
+{
+    width: 500px;
+    position: relative;
+    height: 250px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.Fundo_Gestão_Tempo h1
+{
+    color: #E46B20;
+}
+.Fundo_Gestão_Tempo button
+{
+    margin-left: -5px;
+}
+
+.Resumo_Gestão
+{
+    width: 800px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: 150px;
+}
+.Resumo
+{
+    margin: -150px 0px 0px 420px;
+}
+
+
+.Teste
+{
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+#Fundo_Graficos
+{
+    background-image: linear-gradient(100deg, #402C60, #946ad9);
+}
+#Fundo_Graficos h2
+{
+    text-align: center;
+}
+.Fonte
+{
+    font-size: 14px;
+    color: #653EA9;
+}

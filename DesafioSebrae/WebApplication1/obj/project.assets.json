@@ -11801,11 +11801,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\testes vs\\DesafioSebrae\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "E:\\desafio-sebrae\\DesafioSebrae\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "E:\\testes vs\\DesafioSebrae\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "E:\\desafio-sebrae\\DesafioSebrae\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\ROGERIO\\.nuget\\packages\\",
-      "outputPath": "E:\\testes vs\\DesafioSebrae\\WebApplication1\\obj\\",
+      "outputPath": "E:\\desafio-sebrae\\DesafioSebrae\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
