@@ -12,7 +12,7 @@ body
 .Forumlário
 {
     margin: 20px auto 0px auto;
-    width: 700px;
+    width: 680px;
     height: 800px;
     background-color: #e5e5e5;
     padding: 10px 35px 10px 35px;
@@ -82,4 +82,29 @@ label
 }
 input  {
     outline: 0;
+}
+
+
+
+select
+{
+    background-color: #ffffff;
+    padding: 7px 20px 7px 20px;
+    color: #494848;
+    border: 1px solid #C9C9C9;
+    border-radius: 5px;
+}
+select::before
+{
+    background: #40197d;
+}
+
+#Data_de_Nascimento
+{
+    width: 100px;
+}
+
+#Informacoes_Pessoais
+{
+    height: 150px;
 }
