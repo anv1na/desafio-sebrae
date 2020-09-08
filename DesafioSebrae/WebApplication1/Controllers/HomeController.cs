@@ -29,7 +29,47 @@ namespace WebApplication1.Controllers
             return View();
         }
 
+        public IActionResult Eventos()
+        {
+            return View();
+        }
+
+        public IActionResult FormularioSerMentora()
+        {
+            return View();
+        }
+
+        public IActionResult GestaoTempo()
+        {
+            return View();
+        }
+
+        public IActionResult MaisInformacoes()
+        {
+            return View();
+        }
+
+        public IActionResult Mentorias()
+        {
+            return View();
+        }
+
+        public IActionResult MinhasAnotacoes()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult SugerirEvento()
+        {
+            return View();
+        }
+
+        public IActionResult Voluntaria()
         {
             return View();
         }

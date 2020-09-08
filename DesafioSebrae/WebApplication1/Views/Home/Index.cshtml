@@ -1,148 +1,156 @@
-﻿@{
-    ViewData["Title"] = "Página Inicial";
-}
-
-<div class="NavegadorSuperior">
-    <div class="DivLi">
-        <ul>
-            <li><a id="Selecionado" href="">Página Inicial</a></li>
-            <li><a href="Eventos.cshtml">Eventos</a></li>
-            <li><a href="Mentorias.cshtml">Mentorias</a></li>
-            <li><a href="GestãoTempo.cshtml">Gestão de tempo</a></li>
-        </ul>
-    </div>
-</div>
-<div class="FundoRoxo_MaisInformacoes">
-    <div class="FundoBranco_MaisInformacoes">
-        <h1>Elã</h1>
-        <p>Não é apenas um site.<br>É impulso, inspiração e criatividade.</p>
-        <button><a href="MaisInformacoes.cshtml">Mais informações</a></button>
-        <div class="VetorMeninaLâmpada">
-            <img src="Vetor Principal.png">
+﻿<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/Páginas.css">
+    <link rel="stylesheet" href="~/css/global.css">
+    <title>Início</title>
+</head>
+<body>
+    <div class="NavegadorSuperior">
+        <div class="DivLi">
+            <ul>
+                <li><a id="Selecionado" href="">Página Inicial</a></li>
+                <li><a href="Eventos.html">Eventos</a></li>
+                <li><a href="Mentorias.html">Mentorias</a></li>
+                <li><a href="Gestão_Tempo.html">Gestão de tempo</a></li>
+            </ul>
         </div>
-
     </div>
-</div>
-<div class="FundoLaranja_Informações">
-    <p>O que somos?</p>
-    <hr width="400" color="#b9b9b9">
-    <p>
-        Um espaço de aprendizado através de múltiplas conexões nos negócios.<br> Com incentivo à criatividade, inovação e consumo a informações.
-    </p>
-</div>
-<div class="FundoCinza_1">
-    <div class="Paragrafo" id="PrimeiroParagrafo">
-        <h3>Sobre nós</h3>
+    <div class="FundoRoxo_MaisInformacoes">
+        <div class="FundoBranco_MaisInformacoes">
+            <h1>Elã</h1>
+            <p>Não é apenas um site.<br>É impulso, inspiração e criatividade.</p>
+            <button><a href="./Mais_Informacoes.html">Mais informações</a></button>
+            <div class="VetorMeninaLâmpada">
+                <img src="~/images/Vetor Principal.png">
+            </div>
+
+        </div>
+    </div>
+    <div class="FundoLaranja_Informações">
+        <p>O que somos?</p>
+        <hr width="400" color="#b9b9b9">
         <p>
-            Elã é impulso, inspiração e criatividade. Uma palavra de    intenso significado e pouco conhecida,
-            escolhida por expressar a força da mulher empreendedora. O Elã é um programa de aceleração de negócios com a intenção de estimular a cultura empreendedora das mulheres.
-
-            Um espaço de aprendizado através de múltiplas conexões nos negócios. Com incentivo à criatividade, inovação e consumo a informações.
-
-            Idealizado para ser flexível às necessidades particulares de cada jornada, permitindo a busca da construção de soluções singulares.
+            Um espaço de aprendizado através de múltiplas conexões nos negócios.<br> Com incentivo à criatividade, inovação e consumo a informações.
         </p>
     </div>
-    <div class="Paragrafo" id="SegundoParagrafo">
-        <h3>Pilares</h3>
-        Buscamos conhecer histórias e acreditar em iniciativas.<br><b>Entender</b> as diferentes realidades e considerar as necessidades particulares de cada mulher.<br>
-        <b>Apresentar novos caminhos</b> e guiar em possibilidades.<br><b>Conectar</b> empreendedoras e construir oportunidades. Nossa missão é o futuro!
+    <div class="FundoCinza_1">
+        <div class="Paragrafo" id="PrimeiroParagrafo">
+            <h3>Sobre nós</h3>
+            <p>
+                Elã é impulso, inspiração e criatividade. Uma palavra de    intenso significado e pouco conhecida,
+                escolhida por expressar a força da mulher empreendedora. O Elã é um programa de aceleração de negócios com a intenção de estimular a cultura empreendedora das mulheres.
+
+                Um espaço de aprendizado através de múltiplas conexões nos negócios. Com incentivo à criatividade, inovação e consumo a informações.
+
+                Idealizado para ser flexível às necessidades particulares de cada jornada, permitindo a busca da construção de soluções singulares.
+            </p>
+        </div>
+        <div class="Paragrafo" id="SegundoParagrafo">
+            <h3>Pilares</h3>
+            Buscamos conhecer histórias e acreditar em iniciativas.<br><b>Entender</b> as diferentes realidades e considerar as necessidades particulares de cada mulher.<br>
+            <b>Apresentar novos caminhos</b> e guiar em possibilidades.<br><b>Conectar</b> empreendedoras e construir oportunidades. Nossa missão é o futuro!
+        </div>
     </div>
-</div>
-<div class="FundoRoxo_Carrossel">
-    <div class="LinhaCarrossel"></div>
-    <!--Carrossel-->
-    <div id="slider">
-        <input type="radio" name="slider" id="slide1" checked>
-        <input type="radio" name="slider" id="slide2">
-        <input type="radio" name="slider" id="slide3">
-        <input type="radio" name="slider" id="slide4">
-        <div id="slides">
-            <div id="overflow">
-                <div class="inner">
-                    <div class="slide slide_1">
-                        <div class="slide-content">
-                            <h2>Gestão de Tempo</h2>
-                            <p>Descubra como relacionar <br></p>
-                            <p> vida pessoal com a profissional!</p><br>
+    <div class="FundoRoxo_Carrossel">
+        <div class="LinhaCarrossel"></div>
+        <!--Carrossel-->
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1">
+                            <div class="slide-content">
+                                <h2>Gestão de Tempo</h2>
+                                <p>Descubra como relacionar <br></p>
+                                <p> vida pessoal com a profissional!</p><br>
+                            </div>
+                            <div class="Fotinha">
+                                <img src="~/images/VetorGestaodeTempo.png">
+                            </div>
                         </div>
-                        <div class="Fotinha">
-                            <img src="VetorGestaodeTempo.png">
+                        <div class="slide slide_2">
+                            <div class="slide-content">
+                                <h2>Mentorias</h2>
+                                <p>As mentorias colaborativas </p><p>são acompanhamentos <br></p>
+                                <p>individuais, interativos e online.</p>
+                            </div>
+                            <div class="Fotinha">
+                                <img src="~/images/Mentorias.png">
+                            </div>
                         </div>
-                    </div>
-                    <div class="slide slide_2">
-                        <div class="slide-content">
-                            <h2>Mentorias</h2>
-                            <p>As mentorias colaborativas </p><p>são acompanhamentos <br></p>
-                            <p>individuais, interativos e online.</p>
+                        <div class="slide slide_3">
+                            <div class="slide-content">
+                                <h2>Agenda</h2>
+                                <p>A agenda do Elã é construída</p>
+                                <p>junto à você. Tem alguma proposta</p>
+                                <p>de evento e quer compartilhar seus</p><p>conhecimentos? Nos envie e vamos fazer</p><br>acontecer!</p>
+                            </div>
+                            <div class="Fotinha">
+                                <img src="~/images/Agenda.png">
+                            </div>
                         </div>
-                        <div class="Fotinha">
-                            <img src="Mentorias.png">
-                        </div>
-                    </div>
-                    <div class="slide slide_3">
-                        <div class="slide-content">
-                            <h2>Agenda</h2>
-                            <p>A agenda do Elã é construída</p>
-                            <p>junto à você. Tem alguma proposta</p>
-                            <p>de evento e quer compartilhar seus</p><p>conhecimentos? Nos envie e vamos fazer</p><br>acontecer!</p>
-                        </div>
-                        <div class="Fotinha">
-                            <img src="Agenda.png">
-                        </div>
-                    </div>
-                    <div class="slide slide_4">
-                        <div class="slide-content">
-                            <h2>Participe de eventos</h2>
-                            <p>palestras e cursos ministrados</p>
-                            <p>mulheres empreendedoras e descubra</p>
-                            <p>mais sobre o mercado.</p>
-                        </div>
-                        <div class="Fotinha">
-                            <img src="Eventos.png">
+                        <div class="slide slide_4">
+                            <div class="slide-content">
+                                <h2>Participe de eventos</h2>
+                                <p>palestras e cursos ministrados</p>
+                                <p>mulheres empreendedoras e descubra</p>
+                                <p>mais sobre o mercado.</p>
+                            </div>
+                            <div class="Fotinha">
+                                <img src="~/images/Eventos.png">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div id="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+            </div>
+            <div id="bullets">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+            </div>
         </div>
-        <div id="controls">
-            <label for="slide1"></label>
-            <label for="slide2"></label>
-            <label for="slide3"></label>
-            <label for="slide4"></label>
-        </div>
-        <div id="bullets">
-            <label for="slide1"></label>
-            <label for="slide2"></label>
-            <label for="slide3"></label>
-            <label for="slide4"></label>
+
+
+    </div>
+    <div class="FundoCinza_1">
+        <div class="Paragrafo" id="Paragrafos">
+            <h3>Por que usar nosso site?</h3>
+            De acordo com o relatório global da Mercer
+            “When Women Thrive 2020”, 40% da força de
+            trabalho no mundo é do sexo feminino (pesquisa
+            feita com 1.150 empresas em 54 países,
+            representando mais de sete milhões de funcionários
+            em todo o mundo)</p>
+            <p>
+                Uma pesquisa do fundo de capital de risco First Round
+                Capital demonstra que as startups investidas fundadas
+                por mulheres performaram 63% melhor.
+                (dados exclusivo de 300 empresas e quase 600 fundadores)
+            </p>
+            <p>
+                Já de acordo com o Boston Consulting Group, a cada
+                dólar que uma mulher fundadora ou cofundadora levanta,
+                ela gera 2,5x mais receita do que um fundador do gênero oposto.
+            </p>
         </div>
     </div>
 
 
-</div>
-<div class="FundoCinza_1">
-    <div class="Paragrafo" id="Paragrafos">
-        <h3>Por que usar nosso site?</h3>
-        De acordo com o relatório global da Mercer
-        “When Women Thrive 2020”, 40% da força de
-        trabalho no mundo é do sexo feminino (pesquisa
-        feita com 1.150 empresas em 54 países,
-        representando mais de sete milhões de funcionários
-        em todo o mundo)</p>
-        <p>
-            Uma pesquisa do fundo de capital de risco First Round
-            Capital demonstra que as startups investidas fundadas
-            por mulheres performaram 63% melhor.
-            (dados exclusivo de 300 empresas e quase 600 fundadores)
-        </p>
-        <p>
-            Já de acordo com o Boston Consulting Group, a cada
-            dólar que uma mulher fundadora ou cofundadora levanta,
-            ela gera 2,5x mais receita do que um fundador do gênero oposto.
-        </p>
-    </div>
-</div>
 
-
-
-<img src="Onda_Laranja.png" id="OndaLaranja">
+    <img src="~/images/Onda_Laranja.png" id="OndaLaranja">
+</body>
+</html>

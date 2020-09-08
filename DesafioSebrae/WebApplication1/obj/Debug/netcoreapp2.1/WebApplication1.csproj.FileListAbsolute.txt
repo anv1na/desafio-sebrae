@@ -62,3 +62,11 @@ E:\desafio-sebrae\DesafioSebrae\WebApplication1\obj\Debug\netcoreapp2.1\WebAppli
 E:\desafio-sebrae\DesafioSebrae\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.dll
 E:\desafio-sebrae\DesafioSebrae\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.pdb
 E:\desafio-sebrae\DesafioSebrae\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.csproj.CopyComplete
+E:\desafio-sebrae\DesafioSebrae\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Eventos.g.cshtml.cs
+E:\desafio-sebrae\DesafioSebrae\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Views\Home\FormularioSerMentora.g.cshtml.cs
+E:\desafio-sebrae\DesafioSebrae\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Views\Home\GestaoTempo.g.cshtml.cs
+E:\desafio-sebrae\DesafioSebrae\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Views\Home\MaisInformacoes.g.cshtml.cs
+E:\desafio-sebrae\DesafioSebrae\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Mentorias.g.cshtml.cs
+E:\desafio-sebrae\DesafioSebrae\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Views\Home\MinhasAnotacoes.g.cshtml.cs
+E:\desafio-sebrae\DesafioSebrae\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Views\Home\SugerirEvento.g.cshtml.cs
+E:\desafio-sebrae\DesafioSebrae\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Voluntaria.g.cshtml.cs

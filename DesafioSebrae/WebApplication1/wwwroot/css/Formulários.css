@@ -1,7 +1,7 @@
 body
 {
     font-family: 'FonteInter';
-    background-image: url(../imagens/FundoForm.png);
+    background-image: url(~/images/FundoForm.png);
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;

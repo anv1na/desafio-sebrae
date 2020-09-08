@@ -5,7 +5,7 @@
     position: relative;
     margin: -22px auto 50px auto;
     align-items: center;
-    background-image: url("../imagens/Fundo_Roxo2.jpg");
+    background-image: url("~/images/Fundo_Roxo2.jpg");
     height: 500px;
     width: 100%;
 }
